@@ -93,7 +93,7 @@ second_cpi = a.get_cpi(target_year)
 #Display the Results
 print()
 print("INFLATION CALCULATOR RESULTS")
-print("----------------------------------")
+print(40*"-")
 
 print(f"Original amount: ${amount:,.2f}")
 print(f"Adjusted amount: ${adjusted_cost:,.2f}")
