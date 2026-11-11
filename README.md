@@ -173,7 +173,7 @@ What is the year of the original amount (1914-2026)?: 1914
 What is the year of the target amount (1914-2026)?: 2026
 
 INFLATION CALCULATOR RESULTS
-----------------------------------
+--------------------------------------
 Original amount: $100.00
 Adjusted amount: $2,833.33
 Percent change: 2,733.33%
