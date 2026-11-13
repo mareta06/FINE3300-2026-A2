@@ -29,10 +29,10 @@ The main objectives of this project are to:
 
 | File | Description |
 |---|---|
-| `CPI_Annual Percentage Change_Graph.py` | Python program that reads the CPI data and generates the CPI and annual percentage change graph. |
+| `CPI_AnnualPercentageChange_Graph.py` | Python program that reads the CPI data and generates the CPI and annual percentage change graph. |
 | `Inflation_Calculator.py` | Python program that implements the enhanced Canadian inflation calculator. |
 | `STATIC_INFLATIONCALC.csv` | Monthly CPI data from January 1914 to September 2026, obtained from the Bank of Canada. |
-| `CPI_Annual Percentage Change_Graph.png` | Saved graph displaying Canadian CPI and annual percentage change. |
+| `CPI_AnnualPercentageChange_Graph.png` | Saved graph displaying Canadian CPI and annual percentage change. |
 | `README.md` | Project overview, program explanations, graph commentary, and sample calculator output. |
 
 ---
