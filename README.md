@@ -74,7 +74,7 @@ The following graph displays Canada's Consumer Price Index and annual percentage
 
 The graph illustrates the long-term increase in Canada's Consumer Price Index, showing how the overall cost of goods and services has changed between 1914 and 2026.
 
-The Canadian CPI (blue line) shows an overall upward trend, meaning the cost of a typical basket of goods and services has increased over the long term. However, the annual percentage change (orange line) fluctuates throughout the period, demonstrating that inflation rates vary over time.
+The Canadian CPI (blue line) shows an overall upward trend, meaning the cost of a typical basket of goods and services has increased over the long term. However, the annual percentage change (orange line) fluctuates throughout the period, demonstrating that inflation rates vary over time. The dotted line shows the baseline at a CPI value of 100, as shown on the Bank of Canada website. This allows you to compare price levels to 2002. 
 
 It is important to note that the CPI and annual percentage change measure two different things. The CPI measures the overall level of prices, while the annual percentage change measures how prices have changed compared with the same month in the previous year.
 
@@ -185,7 +185,6 @@ Enter the target date (Month Year): September 2026
 
 ENHANCED INFLATION CALCULATOR RESULTS
 --------------------------------------------------
-
 Original amount (CAD): $100.00
 Adjusted amount (CAD): $2,833.33
 Percent change: 2,733.33%
