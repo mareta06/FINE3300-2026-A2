@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 #Skip the descriptive rows and read the data into a pandas DataFrame
 cpi_data = pd.read_csv("STATIC_INFLATIONCALC.csv", skiprows=8)
@@ -63,7 +64,7 @@ class InflationCalculator:
         total_years = years + (months / 12)
         if total_years == 0:
             return 0
-        return ((target_cpi / original_cpi) ** (1 / total_years) - 1) * 100
+        return (np.power(target_cpi / original_cpi, 1 / total_years) - 1) * 100
 
 #User Interface for the Inflation Calculator
 print("Welcome to the Bank of Canada Inflation Calculator!")
