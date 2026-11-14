@@ -32,7 +32,7 @@ ax1.set_title('Canadian CPI and Annual Percentage Change', fontsize=16)
 cpi_lines, cpi_labels = ax1.get_legend_handles_labels()
 percentage_lines, percentage_labels = ax2.get_legend_handles_labels()
 
-#Display legend with its corresponding lines and at the lower right locaiton for visibility
+#Display legend with its corresponding lines and at the lower right location for visibility
 ax1.legend(cpi_lines + percentage_lines, cpi_labels + percentage_labels, loc='lower right')
 
 #Save and display graph with DPI 300
