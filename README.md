@@ -142,6 +142,8 @@ It uses the original and target CPI values to calculate the compound annual rate
 
 The time difference is converted to decimal years to account for both complete years and remaining months.
 
+It uses NumPy's np.power() function to evaluate the exponentiation in the equation and calculate the average annual inflation rate.
+
 The average annual inflation rate is the compounded annual change over the selected time period. This differs from the total percentage change, which is the overall change in prices.
 
 ## User Input and Validation
