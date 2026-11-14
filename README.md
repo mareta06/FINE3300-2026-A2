@@ -78,6 +78,8 @@ The graph illustrates the long-term increase in Canada's Consumer Price Index, s
 
 The Canadian CPI (blue line) shows an overall upward trend, meaning the cost of a typical basket of goods and services has increased over the long term. However, the annual percentage change (orange line) fluctuates throughout the period, demonstrating that inflation rates vary over time. The dotted line shows the baseline at a CPI value of 100, as shown on the Bank of Canada website. This allows you to compare price levels to 2002. 
 
+One thing I found interesting is the sharp spike and subsequent drop in the annual percentage change (orange line) around 1920. This drastic change may be associated with the economic adjustments following World War I, showing how major political and global events can significantly affect inflation and the economy as a whole.
+
 It is important to note that the CPI and annual percentage change measure two different things. The CPI measures the overall level of prices, while the annual percentage change measures how prices have changed compared with the same month in the previous year.
 
 ---
