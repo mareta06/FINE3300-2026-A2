@@ -47,6 +47,8 @@ The CSV file contains descriptive information before the actual observations, so
 
 The `date` column was then converted into datetime format using `pd.to_datetime()`. This allows Python to recognize the dates and extract information such as the year and month.
 
+One detail about the dataset is that some months contain more than one recorded date (for example, in 1932 there are April 30 and April 1). For consistency, the calculator uses the first matching observation listed in the CSV file when retrieving the CPI value for a selected month and year.
+
 ## Calculating the Annual Percentage Change
 
 To calculate the annual percentage change in CPI, I used the `pct_change()` method with `periods=12`.
@@ -100,7 +102,7 @@ This allows the other methods within the class to access the CPI data when perfo
 
 The `get_cpi()` method retrieves the CPI value for a specific month and year from the dataset.
 
-Since the dataset contains monthly observations, the method extracts the month and year from the date the user enters. It then uses `.loc[]` to find the CPI value that matches both the selected month and year.
+Since the dataset contains monthly observations, the method extracts the month and year from the date the user enters. It then uses `.loc[]` to find the CPI value that matches both the selected month and year. If multiple observations exist for the same month and year, the program selects the first matching CPI value using .iloc[0].
 
 If CPI data is unavailable for the selected date, the program raises a `ValueError`.
 
