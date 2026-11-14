@@ -69,7 +69,7 @@ The graph includes a title, axis labels, and a combined legend in the bottom-rig
 
 The following graph displays Canada's Consumer Price Index and annual percentage change over time.
 
-<img width="851" height="487" alt="image" src="https://github.com/user-attachments/assets/ec5baa3e-b196-4084-9089-42e67ee0ef2f" />
+<img width="1746" height="996" alt="image" src="https://github.com/user-attachments/assets/3296c0df-9546-4678-98bc-535a5be3abb7" />
 
 
 ## Graph Commentary
