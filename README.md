@@ -144,8 +144,6 @@ The time difference is converted to decimal years to account for both complete y
 
 It uses NumPy's np.power() function to evaluate the exponentiation in the equation and calculate the average annual inflation rate.
 
-The average annual inflation rate is the compounded annual change over the selected time period. This differs from the total percentage change, which is the overall change in prices.
-
 ## User Input and Validation
 
 After defining the class, I created an object named `a` using the `InflationCalculator` class.
