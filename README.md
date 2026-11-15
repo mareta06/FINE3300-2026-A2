@@ -196,7 +196,7 @@ Number of years and months: 112 years and 8 months
 Average annual inflation rate: 3.01%
 CPI for first period: (January 1914) 6.0
 CPI for second period: (September 2026) 170.0
-2002 CPI = 100
+2002 CPI = 100.0
 ```
 
 ---
